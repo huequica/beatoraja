@@ -680,6 +680,11 @@ public class BarRenderer {
 			mov++;
 		}
 
+		/* _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/
+		 * huequica:TODO
+		 * ここからFAVへ登録する処理
+		 * _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/
+		 */
 		if(input.isActivated(KeyCommand.ADD_FAVORITE_SONG)) {
 			if(getSelected() instanceof SongBar) {
 				SongData sd = ((SongBar) getSelected()).getSongData();
@@ -721,6 +726,11 @@ public class BarRenderer {
 				}
 			}
 		}
+		/* _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/
+		 * huequica:TODO
+		 * ここまでFAVへ登録する処理
+		 * _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/
+		 */
 	}
 
 	public void resetInput() {
