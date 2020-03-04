@@ -259,6 +259,11 @@ public class MusicResult extends AbstractResult {
 
 	}
 
+	/* _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/
+	 * huequica:TODO
+	 * ここから入力処理
+	 * _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/
+	 */
 	public void input() {
 		long time = main.getNowTime();
 		final PlayerResource resource = main.getPlayerResource();
@@ -320,6 +325,11 @@ public class MusicResult extends AbstractResult {
 			}
 		}
 	}
+	/* _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/
+	 * huequica:TODO
+	 * ここまで入力処理
+	 * _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/ _/
+	 */
 
 	private void saveReplayData(int index) {
 		final PlayerResource resource = main.getPlayerResource();
